@@ -74,12 +74,12 @@ int main()
 	{
 		printf("学生%d 理科(偏差値：%f) 英語(偏差値：%f)\n",i+1,stus[i],stue[i]);
 	}
-	printf("理科\n");
+	printf("-------------理科順位一覧------------\n");
 	for(i=0;i<20;i++)
 	{
 		printf("%d位：%f点\n",i+1,science[i]);
 	}
-	printf("英語\n");
+	printf("-------------英語順位一覧----------- \n");
 	for(i=0;i<20;i++)
 	{
 		printf("%d位：%f点\n",i+1,english[i]);
